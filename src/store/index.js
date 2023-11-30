@@ -17,4 +17,5 @@ const store = configureStore({
   },
 });
 
+// This store is exported to be provided to the rest of the app in src/index.js
 export default store;

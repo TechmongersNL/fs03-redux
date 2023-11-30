@@ -6,7 +6,7 @@ export const countSlice = createSlice({
   // But we normally want this to match the name of the slice in the main store in src/store/index.js
   name: "count (this can be anything)",
   initialState: {
-    // The names of keys in initial state will be used in selectors
+    // The names of these keys in initialState will be used in selector definitions
     countValue: 0
   },
   reducers: {
