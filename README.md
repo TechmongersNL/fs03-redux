@@ -17,6 +17,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 1. In `src/index.js`, provide the store to your App component
 1. Create slices in new folder, `src/store/{yourSliceName}` with a `slice.js` file in it
 1. Set up your slice with `initialState` and empty actions
+1. Export your slices, and import them into your store in `src/store/index.js`
 1. Run your app and open the Redux dev tools to make sure you set up your slices and initial state correctly
 1. Add some logic to your actions and export them
 1. In your UI components, import your actions and use the `useDispatch` hook to dispatch them
